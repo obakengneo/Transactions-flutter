@@ -24,7 +24,7 @@ class HomeView extends StatelessWidget {
              UIHelper.verticalSpaceLarge(),
              Padding(
               padding: const EdgeInsets.only(left: 20.0),
-              child: Text('Welcome to Neo',
+              child: Text('Welcome Neo',
               style: headerStyle,),
             ),
             Padding(
