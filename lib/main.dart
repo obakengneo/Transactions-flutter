@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "TopCode",
-      theme: ThemeData(),
+      theme: themeData(),
       initialRoute: '/home',
       onGenerateRoute: PreferredRoute.generatRoute,
     );
